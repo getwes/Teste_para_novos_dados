@@ -12,15 +12,15 @@ titulo_nome_dos_notebook = driver.find_elements(By.XPATH,"//h3[@class='styles__N
 
 valor_dos_notebook = driver.find_elements(By.XPATH,"//span[@class='src__Text-sc-154pg0p-0 styles__PromotionalPrice-sc-yl2rbe-0 dthYGD list-price']")
 
-dicionario=[]
+lista=[]
   
 
 for titulo, valor in zip(titulo_nome_dos_notebook, valor_dos_notebook):
-    dicionario.append([titulo.text,valor.text])
+    lista.append([titulo.text,valor.text])
 
-print(dicionario)
+print(lista)
 
-dicionario_2 = len(dicionario)
+dicionario_2 = len(lista)
 for i in range(dicionario_2):
-    print(dicionario[i])
+    print(lista[i])
     
