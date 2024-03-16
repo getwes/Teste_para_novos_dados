@@ -20,7 +20,7 @@ for titulo, valor in zip(titulo_nome_dos_notebook, valor_dos_notebook):
 
 print(lista)
 
-dicionario_2 = len(lista)
-for i in range(dicionario_2):
+lista_2 = len(lista)
+for i in range(lista_2):
     print(lista[i])
     
